@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #b5c588;
-  --secondary-color: #d1d0d5;
+  --primary-color: #09329a;
+  --secondary-color: #9fb1d2;
   --heading-font-family: "Signika", sans-serif;
   --default-font-family: "Manrope", sans-serif;
 }
@@ -38,6 +38,7 @@ p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
+  font-family: var(--heading-font-family);
 }
 
 .hero {
@@ -123,6 +124,7 @@ p {
 
 .line-break {
   padding: 0 35px 45px 35px;
+  color: var(--primary-color);
 }
 
 .nav-item {
@@ -145,6 +147,11 @@ p {
 
 .card-title {
   font-size: 18px;
+}
+
+.about-picture {
+  border-radius: 60%;
+  padding-left: 50px;
 }
 
 .card-text footer .email-link {
