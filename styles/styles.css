@@ -118,7 +118,11 @@ p {
 }
 
 .project-description {
-  padding: 120px 60px;
+  padding: 60px 60px;
+}
+
+.line-break {
+  padding: 0 35px 45px 35px;
 }
 
 .nav-item {
