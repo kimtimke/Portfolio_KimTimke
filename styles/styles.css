@@ -150,10 +150,26 @@ p {
 }
 
 .about-picture {
-  border-radius: 60%;
-  padding-left: 50px;
+  border-radius: 50%;
+  height: 230px;
+  width: 230px;
+  object-fit: cover;
+  padding: 0;
 }
 
+.about-container {
+  padding: 100px 20px 0px 20px;
+}
+
+.about-container h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-container h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
 .card-text footer .email-link {
   text-decoration: none;
   color: black;
