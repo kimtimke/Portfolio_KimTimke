@@ -41,6 +41,11 @@ p {
   font-family: var(--heading-font-family);
 }
 
+small {
+  opacity: 50%;
+  font-size: 12px;
+}
+
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
@@ -170,11 +175,25 @@ p {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
+
 .card-text footer .email-link {
   text-decoration: none;
   color: black;
   font-size: 24px;
   text-align: center;
+}
+
+.project-image {
+  height: 546px;
+}
+
+.column-height {
+  height: 500px;
+  width: 570px;
+}
+
+.paragraph-contact {
+  padding: 0px 150px 0px 150px;
 }
 
 footer .contact-box {
