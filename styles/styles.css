@@ -183,15 +183,6 @@ small {
   text-align: center;
 }
 
-.project-image {
-  height: 546px;
-}
-
-.column-height {
-  height: 500px;
-  width: 570px;
-}
-
 .paragraph-contact {
   padding: 0px 150px 0px 150px;
 }
@@ -250,5 +241,11 @@ footer .contact-box p {
   .content-container {
     text-align: center;
     padding: 0;
+  }
+  .paragraph-contact {
+    padding: 0px 20px 0px 20px;
+  }
+  .about-container {
+    padding-top: 20px;
   }
 }
