@@ -140,9 +140,11 @@ small {
   color: var(--primary-color);
 }
 
-.card {
-  box-shadow: 0px 5px 10px, rgba (0, 20, 10, 10);
+.primary-card {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
   border: none;
+  display: block;
+  margin: 0 auto;
 }
 
 .card-body {
