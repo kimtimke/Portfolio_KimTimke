@@ -188,6 +188,13 @@ small {
   padding: 0px 150px 0px 150px;
 }
 
+.skill-image img {
+  width: 60%;
+  height: 35px;
+  margin-bottom: 5px;
+  object-fit: contain;
+}
+
 footer .contact-box {
   background-color: var(--primary-color);
 }
