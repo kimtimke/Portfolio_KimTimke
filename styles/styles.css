@@ -97,12 +97,6 @@ small {
   opacity: 70%;
 }
 
-.about-picture {
-  border-radius: 6px;
-  width: 400px;
-  padding-left: 30px;
-}
-
 .btn-primary {
   background: var(--primary-color);
   border-radius: 4px;
@@ -164,9 +158,14 @@ small {
   line-height: 80px;
 }
 
-.about-container h2 {
-  font-size: 18px;
-  font-family: var(--default-font-family);
+.about-picture {
+  border-radius: 50% 20% / 10% 40%;
+  width: 400px;
+}
+
+.about-paragraph {
+  padding: 0px 30px 0px 30px;
+  text-align: left;
 }
 
 .card-text footer .email-link {
@@ -247,5 +246,12 @@ footer .contact-box p {
   }
   .about-container {
     padding-top: 20px;
+  }
+  .about-paragraph {
+    text-align: center;
+    padding-right: 10px;
+  }
+  .about-picture {
+    width: 300px;
   }
 }
