@@ -155,16 +155,8 @@ small {
   font-size: 18px;
 }
 
-.about-picture {
-  border-radius: 50%;
-  height: 230px;
-  width: 230px;
-  object-fit: cover;
-  padding: 0;
-}
-
 .about-container {
-  padding: 100px 20px 0px 20px;
+  padding: 50px 20px 0px 20px;
 }
 
 .about-container h1 {
