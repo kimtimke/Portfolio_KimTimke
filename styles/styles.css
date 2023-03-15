@@ -50,6 +50,7 @@ small {
   background-color: var(--secondary-color);
   text-align: center;
   padding: 100px 20px;
+  border-radius: 50% 20% / 10% 40%;
 }
 
 .hero p {
@@ -116,6 +117,10 @@ small {
   padding: 15px 30px;
 }
 
+.homepage-about-me-section {
+  padding: 0px 250px 0px 250px;
+}
+
 .project-description {
   padding: 0;
 }
@@ -176,7 +181,7 @@ small {
 }
 
 .paragraph-contact {
-  padding: 0px 150px 0px 150px;
+  padding: 0px 300px 0px 300px;
 }
 
 .skill-image img {
@@ -184,6 +189,9 @@ small {
   height: 35px;
   margin-bottom: 5px;
   object-fit: contain;
+}
+.reroot-image {
+  width: 300px;
 }
 
 footer .contact-box {
