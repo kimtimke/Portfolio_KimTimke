@@ -190,8 +190,12 @@ small {
   margin-bottom: 5px;
   object-fit: contain;
 }
+
 .reroot-image {
-  width: 300px;
+  width: 700px;
+}
+.paragraph-reroot {
+  padding: 0px 150px 0px 150px;
 }
 
 footer .contact-box {
@@ -241,6 +245,12 @@ footer .contact-box p {
   .hero {
     padding: 80px 10px;
   }
+  .homepage-about-me-section {
+    padding: 0px;
+  }
+  .card-body {
+    padding-top: 30px;
+  }
   .project-description {
     text-align: center;
     padding: 0;
@@ -257,9 +267,12 @@ footer .contact-box p {
   }
   .about-paragraph {
     text-align: center;
-    padding-right: 10px;
+    padding: 0px;
   }
   .about-picture {
     width: 300px;
+  }
+  .paragraph-reroot {
+    padding: 20px 20px;
   }
 }
