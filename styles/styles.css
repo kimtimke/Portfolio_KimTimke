@@ -166,6 +166,7 @@ small {
 .about-picture {
   border-radius: 50% 20% / 10% 40%;
   width: 400px;
+  padding-top: 45px;
 }
 
 .about-paragraph {
