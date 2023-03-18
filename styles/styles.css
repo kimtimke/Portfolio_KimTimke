@@ -173,6 +173,9 @@ small {
   padding: 0px 30px 0px 30px;
   text-align: left;
 }
+.desert-ocean-image {
+  width: 250px;
+}
 
 .card-text footer .email-link {
   text-decoration: none;
